@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  padding: 3rem 10rem 0rem 10rem;
+  align-content: space-between;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter {
+  font-size: var(--filterSort);
+  font-weight: 900;
+  cursor: pointer;
+  border: 0.01rem solid black;
+  padding: 0.5rem 1rem;
+  border-radius: 4rem;
+  -webkit-user-select: none; /*Safari*/
+  -ms-user-select: none; /*IE 10 and IE 11*/
+  user-select: none; /*Standard syntax*/
+}
+
+.filter_dash {
+  transition: all .5s ease-in-out;
+  animation: slide 1000ms linear;
+}
+
+@keyframes slide {
+  0% {
+    top: 0%;
+  }
+  100% {
+    top: 100%;
+  }
+}
+
+.sort {
+  font-size: var(--filterSort);
+  font-weight: 900;
+  cursor: pointer;
+  border: 0.01rem solid black;
+  padding: 0.5rem 1rem;
+  border-radius: 4rem;
+}
+
+@media screen and (max-width: 580px) {
+  .container {
+    padding: 2rem 2rem 0rem 2rem;
+  }
+}

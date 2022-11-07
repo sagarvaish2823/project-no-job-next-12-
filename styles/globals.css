@@ -1,0 +1,68 @@
+
+
+@font-face {
+  font-family: "Poiret One";
+  src: url('../fonts/Poiret_One/PoiretOne-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  font-family: "Poiret One";
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+  --ivory: #ede9e3;
+  --nude: #e7d7c9;
+  --rose: #d4b2a7;
+  --stone: #cdc6c3;
+  --latte: #a38f85;
+  --nailpaint: #f2d3bc;
+  --primaryFontColor: black; /*primary text color*/
+  --headingText: 2rem; /*main heading font-size for every content*/ /*2rem was used*/
+  --subHeading: 1.5rem; /*sub heading font-size for every content  {NAVBAR} */  /*1.5rem was used*/
+  --subHeadingHover: 1.7rem; /*sub heading font-size for every content after hover*/ /*1.7rem was used*/
+  --para: 1.2rem; /*paragraph font-size for every content*/ /*1.7rem was used*/
+  --galleryTitleText: 1.5rem; /*title of product in gallery*/ /*1.5rem was used*/
+  --galleryPriceText: 1.2rem; /*price of product in gallery*/ /*1.2rem was used*/
+  --galleryStarsRating: 1rem; /*stars of product in gallery*/ /*1rem was used*/
+  --filterSort: 1rem; /*SPECIAL*/ /*for filter and sort button*/ /*1rem was used*/
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 0.6rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,28 @@
+Trrinket:
+
+This is the docmentation for the website of trrinket.com
+
+* Read this file first.
+* Please do not make any change in the folders without prior knowledge of the web project. 
+* All files are systematically created for easy navigation as per the website UI.
+* For any query reach out to us at: support@codingoven.com.
+
+Documentation:
+
+Layout/UI: 
+    Location: 'components/Layout'
+
+Layout of the Website is controlled by the component Layout.js
+    Website's { META TAGS, FAVICON, HEADER}
+
+These changes are for every page.
+
+This includes header,main,footer. 
+
+HEADER
+
+    * In header the title, description, content and link is controlled by the Layout.js file as serving the purpose of the main file.
+
+    * Change title, description, content, link in the WebPage file to manipulate.
+
+

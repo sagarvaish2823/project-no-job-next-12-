@@ -1,0 +1,132 @@
+.navBar_sP {
+    display: none;
+    z-index: 999999;
+}
+
+.logoContainer {
+    padding-top: 1rem;
+    transition: transform 300ms;
+}
+
+.logoContainer:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.navBar {
+    margin: -1rem 2rem 0rem 2rem;
+    padding: 1rem 0rem 0rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    max-height: 7rem;
+}
+
+.navLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Links {
+    list-style: none;
+    margin-right: 2rem;
+}
+
+.linkname {
+    font-size: var(--subHeading);
+    color: black;
+    transition: 200ms;
+    font-weight: lighter;
+}
+
+.linkname:hover {
+    cursor: pointer;
+    font-size: var(--subHeadingHover);
+    /* transform: scale(102%); */
+    font-weight: bolder;
+}
+
+.icons {
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-right: 1rem;
+}
+
+.search {
+    margin-right: 1.1rem;
+    cursor: pointer;
+    transition: transform 300ms;
+}
+
+.search:hover {
+    transform: scale(1.2);
+    backface-visibility: hidden;
+}
+
+.account {
+    margin-right: 1rem;
+    cursor: pointer;
+    transition: transform 300ms;
+}
+
+.account:hover {
+    transform: scale(1.2);
+    backface-visibility: hidden;
+}
+
+.cart {
+    cursor: pointer;
+    transition: transform 300ms;
+}
+
+.cart:hover {
+    transform: scale(1.2);
+    backface-visibility: hidden;
+}
+
+/* Responsive For Smartphone*/
+@media screen and (max-width: 580px) {
+    .navBar {
+        display: none;
+    }
+
+    .navBar_sP {
+        padding: 0px;
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .icons_sP {
+        display: flex;
+        align-content: center;
+        justify-content: space-around;
+        align-items: center;
+        width: 75%;
+        z-index: 999;
+        list-style: none;
+        background-color: var(--ivory);
+        padding: 0.35rem 0.1rem;
+        border-radius: 4rem;
+        border: 0.1rem solid black;
+    }
+
+    ul.icons_sP {
+        padding-inline-start: 0;
+    }
+
+
+}

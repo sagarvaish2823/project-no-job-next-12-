@@ -1,0 +1,127 @@
+.container {
+  display: flex;
+  padding: 5rem 0rem 2rem 10rem;
+}
+
+/* .footer_trrinket{
+    font-size: 3rem;
+    padding: 0rem 0rem 0rem 10rem;
+    font-weight: 900;
+    color: black;
+} */
+
+.title {
+  position: relative;
+  width: 12rem;
+  height: 6rem;
+  cursor: pointer;
+  margin-left: 35%;
+}
+
+.head_container {
+  display: flex;
+  padding: 0rem 10rem;
+}
+
+.head {
+  font-size: var(--headingText);
+  font-weight: 900;
+  /* margin: 0 15rem 0 0; */
+}
+
+.imp {
+  margin: 0 0 0 15rem;
+}
+
+.footerLinks {
+  font-size: var(--subHeading);
+  max-height: 2vh;
+  color: black;
+  transition: 100ms;
+  font-weight: lighter;
+}
+
+.footerLinks:hover {
+  transform: scale(1.1);
+  font-weight: bold;
+}
+
+.stayConnected {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0 0 0;
+  font-size: var(--headingText);
+  font-weight: bolder;
+}
+
+.mediaContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 30rem 2rem 30rem;
+}
+
+.mediaImages {
+  position: relative;
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+  transition: 250ms;
+}
+
+.mediaImages:hover {
+  transform: scale(1.1);
+}
+.rightsContainerSp{
+  display: none;
+}
+.rights {
+  font-size: var(--subHeading);
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 1rem 0 0;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 580px) {
+  .container {
+    padding: 5rem 0rem 0rem 6rem;
+  }
+  /* .title{
+    margin-left: -8vh;
+  } */
+  .head_container {
+    padding: 0rem 1rem 0 3rem;
+  }
+  .imp {
+    margin: 0 0 0 2rem;
+  }
+  .footerLinks {
+    max-height: 5vh;
+  }
+  .stayConnected {
+    padding: 1rem 2rem 0 2rem;
+    text-align: center;
+  }
+  .mediaContainer {
+    /* margin: 0 0rem 2rem 0rem; */
+    margin: 0 20vw 2rem 20vw;
+  }
+  .rightsContainer{
+    display: none;
+  }
+  .rightsContainerSp{
+    display: block;
+    padding: 0 0 8rem 0;
+    font-weight: bold;
+
+  }
+  .rightsSp {
+    font-size: var(--subHeading);
+    margin: 0 0rem 0rem 0;
+    text-align: center;
+    line-height: 2rem;
+  }
+
+}

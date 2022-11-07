@@ -1,0 +1,35 @@
+.Preloader {
+  height: 50vh;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(20%);
+}
+
+.logo {
+  animation-duration: 1500ms;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+  animation-name: bounce;
+  animation-timing-function: linear;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-1rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.brand {
+  font-size: 3.5rem;
+  margin-top: -2.5rem;
+  font-family: 'Great Vibes', cursive;
+  font-weight: normal;
+}
