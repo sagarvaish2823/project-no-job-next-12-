@@ -19,17 +19,7 @@
 }
 
 .filter_dash {
-  transition: all .5s ease-in-out;
-  animation: slide 1000ms linear;
-}
-
-@keyframes slide {
-  0% {
-    top: 0%;
-  }
-  100% {
-    top: 100%;
-  }
+  transition: all 10s ease-in-out;
 }
 
 .sort {

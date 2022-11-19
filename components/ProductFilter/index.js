@@ -23,11 +23,9 @@ function index() {
       </div>
       {/* show elements on click */}
       {isShown && (
-        <div>
           <div className={styles.filter_dash}>
             <h1>Filters</h1>
           </div>
-        </div>
       )}
     </Fragment>
   );
